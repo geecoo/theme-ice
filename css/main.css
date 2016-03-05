@@ -479,15 +479,6 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: top;
 }
 
-
-.content{
-	overflow: hidden;
-	display: inline-block;
-	vertical-align: top;
-	width: 620px;
-	margin-right: 20px;
-}
-
 .notification {
     margin:0 auto 2rem;
 	padding: .6rem 2rem;
@@ -1052,6 +1043,23 @@ side bar style
    7. Media
    ========================================================================== */
 @media only screen and (min-width: 1400px) {
+	.container, .main-content,.widgets-wrap, .copyright,.main-nav .inner{
+		width: 1160px;
+	}
+	.content{
+		width: 820px;
+	}
+	.post{
+		padding: 2rem 6rem;
+	}
+	.page-title{
+		height: 15rem;
+		line-height: 15rem;
+		font-size: 6rem;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
 	.container, .main-content,.widgets-wrap, .copyright,.main-nav .inner{
 		width: 1160px;
 	}
